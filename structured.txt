@@ -1,0 +1,25 @@
+src/
+│
+├── app.js                # express setup
+├── server.js             # start server
+│
+├── routes/
+│   ├── places.routes.js
+│   └── place.routes.js
+│
+├── controllers/
+│   ├── places.controller.js
+│   └── place.controller.js
+│
+├── services/
+│   └── google.service.js   (you already have this)
+│
+├── utils/
+│   ├── normalizePlace.js   (you already have this)
+│   └── wait.js
+│
+├── cache/
+│   └── memoryCache.js      (you already have this)
+│
+├── config/
+│   └── debug.js
